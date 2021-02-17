@@ -1,0 +1,32 @@
+{
+    "name": "jnjxp/router",
+    "description": "jnjxp router package",
+    "type": "library",
+    "require": {
+        "aura/router": "^3.1",
+        "container-interop/service-provider": "^0.4.0",
+        "fig/http-message-util": "^1.1",
+        "psr/container": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "require-dev": {
+        "laminas/laminas-diactoros": "^2.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\Router\\": "src/"
+        }
+    }
+}
